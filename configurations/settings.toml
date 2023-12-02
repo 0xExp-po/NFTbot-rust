@@ -1,0 +1,35 @@
+[general]
+rpc_api_url = ""
+
+[tasks]
+wallets = ["*"]
+
+    [tasks.candy_machine]
+    candy_machine_id = "EMof3UYzCSTqamrmpSpC6wXiWUR5w566zAx1RV7Qf2Rz"
+    whitelist = false
+
+    [tasks.magic_eden_launchpad]
+    collection = "vandal_city"
+    stage = "Whitelist 5"
+    threads = 1
+
+    [tasks.solport]
+    # ["collection_data"]["col_account_key"] =
+    collection_id = "89W6f9RBtZvaV6AmKcZBrAtDsfWXj3xNA7JoASVwoU8B"
+    # this["launchpadProgramId"] =
+    program_id = "E3Xo5nhvW8c58Kv2Cj26KWApuKNkrwe2FPNx9CA2SZPC"
+    # this["launchpadFeeAddress"] =
+    fee_address = "8Lakomdoh49cu26BqQHomQdKPMriqYmku1Crcfbtmihi"
+    # this["s3"] = 
+    s3 = "3FLCJUCtKq3q35sobQv75a67xHNwDck7cbNamUWtidFWYKW5eqfLDHSRQcuFx6WshMqKEebMtCT5PMcUdpNvPypu"
+    # this["s4"] = 
+    s4 = "29dEnUG11QKikBm81utywBSKKy2JfQXKPuxvghSAofvcafBnd3dX5gA5H7CNJg3JgF4t9L5bWBZriKGVT71xfMax"
+    # in getS 
+    # should be encoded in base58
+    elliptic_key = "22Pch3B6Dj1JN1Li2ueL7Q1PGrp1jikbzScXAXzPGVGQsSArf55mJbtGUzzUicRTFaqxQczNvbFSwtcU5pUVjwpB"
+
+    whitelist = false
+
+    [tasks.temple]
+    config_key = "FGjvRaVqC6FczVUXf1cpQfzNxRDYAWZuyfKvGfYvjYU"
+    whitelist = false
